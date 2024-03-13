@@ -2,7 +2,7 @@ import os
 import requests
 import socket
 from statistics import stdev, mean
-from subprocess import check_output, Popen, PIPE
+from subprocess import Popen, PIPE
 from time import sleep
 
 CONFIG = {
